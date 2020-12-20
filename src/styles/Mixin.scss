@@ -1,0 +1,11 @@
+@mixin proporcionalSize($size) {
+    width: $size;
+    height: $size / 2;
+
+    @include noGutters;
+}
+
+@mixin noGutters {
+    margin: 0;
+    padding: 0;   
+}
